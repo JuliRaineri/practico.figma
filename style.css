@@ -100,23 +100,26 @@ justify-content: center;
 
 .section-1{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    box-sizing: content-box;
+    text-align: center;
+    margin-bottom: 500px;
 }
 
-.columna1{
-    display: flex;
-flex-direction: column;
-box-sizing: content-box;
-justify-content: center;
-width: 800px;
-height: 180px;
-margin-right: 510px;
-margin-top: 150px;
-padding: 1px;
+.texto{
+    width: 1000px;
+    height: 42;
+    Top :1200px;
+    Left: 273px;
+    margin-left: 480px;
 }
+
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;  
+} 
 
 
 
@@ -192,14 +195,30 @@ margin-top: -10%;
  .row-1{
      display: flex;
      flex-direction: column;
-     margin-left: 500px;
+     margin-left: 400px;
+     margin-top: 80px;
 
      
  }
  .row-2{
      display: flex;
-     flex-direction: column;
+     flex-wrap: wrap;
 margin-right: 500px;
-justify-content: space-around;     
-
+justify-content: space-evenly;     
  }
+ #button{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+position: absolute;
+width: 136px;
+height: 64px;
+left: calc(50% - 136px/2 + 0.5px);
+top: 4016px;
+   border-radius: 8px;
+   background-color: black;
+ }
+
+
+
