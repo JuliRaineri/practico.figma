@@ -33,11 +33,16 @@ header{
     justify-content: space-between;
     align-content: flex-end;
     list-style: none;
-    width: 500px;
+    width: 650px;
     height: 100px;
     padding: 15px;
     margin: 2em;
     font-family: 'Noto Sans', sans-serif;
+    Top: 10px;
+   Left: 678px;
+    
+
+
 }
 
 button{
@@ -81,7 +86,7 @@ p{
     display: flex;
     flex-direction: column;    
     height: 200px;
-    width: 450px;
+    width: 460px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -93,22 +98,20 @@ justify-content: center;
 }
 
 .portada , .imgPortada , .columna{
-    margin: 1em;
+    margin: 0.5em;
 }
 
 .section-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    display: block;
     margin-bottom: 400px;
     margin-left: 1000px;
 }
 
 .texto{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-right: 250px;  
-    margin-left: -400px;
+    margin-left: -200px;
     width: 1000px;
     height: 42;
     Top :1200px;
@@ -120,7 +123,7 @@ justify-content: center;
    flex-wrap: row;
    justify-content: center;
    text-align: center;  
-   margin-right: 1200px;
+   margin-right: 1100px;
 } 
 
 .widget1{
