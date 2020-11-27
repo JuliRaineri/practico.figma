@@ -6,15 +6,15 @@ html , body{
     width: 100%;
     height: 100%;
     background: #e6e6e6;
-    margin: 1%;
+    margin: 0%;
     padding: 0%;
     
 }
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 5em;
+    justify-content: space-between;
+    margin: 1em;
 
 }
 
@@ -25,6 +25,7 @@ header{
     font-size: 32px;
     line-height: 56px;
     color: rgba(20, 20, 28, 0.800);
+    padding: 10px;
 }
 
 .menu {  
@@ -34,31 +35,23 @@ header{
     align-content: flex-end;
     list-style: none;
     width: 650px;
-    height: 100px;
-    padding: 15px;
-    margin: 2em;
+    height: 50px;
     font-family: 'Noto Sans', sans-serif;
-    Top: 10px;
-   Left: 678px;
-    
-
-
 }
 
 button{
-
 background-color: #71A894 ;
 color:#E5E5E5 ;
 font-family: 'Noto Sans', sans-serif ;
- width: 219px;
-height: 100px;
+ width: 200px;
+height: 60px;
 padding: 10px;
 margin-top: 40px;
 border-radius: 4px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-h1 ,h2{ 
+h1 ,h2 { 
     font-family: 'Yeseva One', cursive;
     font-style: normal;   
     font-weight: normal; 
@@ -70,60 +63,95 @@ p{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
 }    
 
-.caja1 {
+.caja1 {  
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: -200px; 
+    flex-direction: row-reverse;
+    justify-content: center, space-evenly; 
+    margin: 1em; 
 }
 
 
-.columna  {
+.columna  { 
+    display: flex;
+    flex-direction: column;
+    width: 608px;
+     height:275px;
+     margin-left: 30px;
+    background: #FFFFFF;
+    box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.caja1 img{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 1012px;
+    height: 869.58px;
+
+    
+}
+
+.columna  button  {
+    display: block;
+    width: 219px;
+    height: 64px;
+    left: 56px;
+    top: 562px;
+
+}
+
+.caja1 img , .caja1 .columna {
+    margin-top: -150px;
+    margin: 1em;
+    margin-right: 60px;
+    
+}
+
+.caja2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -200px;  
+}
+
+.columna2{
     display: flex;
     flex-direction: column;    
     height: 200px;
-    width: 460px;
+    width: 760px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
-
-.imgPortada{
-display: flex;
-align-content: center;
-justify-content: center;
-}
-
-.portada , .imgPortada , .columna{
-    margin: 0.5em;
-}
-
 .section-1{
-    display: block;
-    margin-bottom: 400px;
-    margin-left: 1000px;
-}
-
-.texto{
     display: flex;
-    flex-direction: column;
-    margin-right: 250px;  
-    margin-left: -200px;
-    width: 1000px;
-    height: 42;
-    Top :1200px;
-    Left: 273px;
+    flex-direction: column;   
+    text-align: center;
+    margin-bottom: 400px;
+    left: 200px;
 }
 
-.cards{
+.texto h1 p{
+    display: block;
+    width: 680px;
+    height: 334px;
+    left: 742px;
+    margin-left: 350px;
+    
+    
+    
+}
+
+.cards {
    display: flex;
    flex-wrap: row;
    justify-content: center;
    text-align: center;  
-   margin-right: 1100px;
+   margin-right: 80px;
 } 
 
 .widget1{
@@ -131,8 +159,9 @@ justify-content: center;
     flex-direction: row;
     width: 380px;
     height: 464;
-    margin: 50px;
-    
+    margin: 60px;
+    ;
+
 }
 .widget2 {
 width: 484px;
@@ -148,27 +177,28 @@ border-radius: 16px;
  .section-3{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 4em; 
+    justify-content: space-evenly;
+    width: 100%;
     margin-top: 200px; 
+    
  }
 
- .proposalWidget{
+ .proposalWidget {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 650px;
+    flex-direction: column; 
+align-content: space-between;  
+ width: 710px;
     height: 334px;
-    left: 742px;
-    top: 200px;
+    left: 860px;
+    top: 2000px;
  }
 
   .contenedorGral{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 4em; 
+    justify-content: space-around;
+    margin-top: 6em; 
+    margin-right: 8em;
  }
 
  .row-1{
@@ -187,7 +217,10 @@ border-radius: 16px;
    Height: 500px;
 Top: 2880px;
 Left: 740px;
+margin-top: 4em;
 }    
+
+
 
  #button{ 
     display: flex;
