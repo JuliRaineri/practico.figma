@@ -5,7 +5,7 @@
 html , body{
     width: 100%;
     height: 100%;
-    background: #e6e6e6;
+    background: white;
     margin: 0%;
     padding: 0%;
     
@@ -18,7 +18,7 @@ header{
 
 }
 
-#logo{
+#logo {
     font-family: "Cabin", sans-serif;
     font-style: normal;   
     font-weight: normal; 
@@ -105,12 +105,14 @@ p{
 
 }
 
-.caja1 img , .caja1 .columna {
-    margin-top: -150px;
+ .caja1 img , .caja1 .columna {
     margin: 1em;
     margin-right: 60px;
-    
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
+
 
 .caja2{
     display: flex;
@@ -122,7 +124,7 @@ p{
 .columna2{
     display: flex;
     flex-direction: column;    
-    height: 200px;
+    height: 250px;
     width: 760px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
@@ -232,16 +234,28 @@ width: 136px;
 height: 64px;
 left: calc(50% - 136px/2 + 0.5px);
 top: 4016px;
-margin-top: 80px;
+margin-top: 100px;
 background: #303031;
 border-radius: 8px;
  }
 
- footer{
+ footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 250px;   
+    justify-content: space-around;
+    margin-top: 100px;
+    left: 56%;
+}
+
+h4{
+    font-family: "Cabin", sans-serif;
+    font-style: normal;   
+    font-weight: normal; 
+    font-size: 22px;
+    line-height: 56px;
+    color: rgba(20, 20, 28, 0.800);
+    padding: 10px;
+    margin: 1em;
 }
 a{
     color: black ;
@@ -250,13 +264,13 @@ a{
 .links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: flex-end;
     list-style: none;
-    width: 500px;
-    height: 100px;
+    width: 650px;
+    height: 50px;
     padding: 10px;
-    margin: 0.5em;
+    margin: 1em;
     font-family: 'Noto Sans', sans-serif;
     
 }
