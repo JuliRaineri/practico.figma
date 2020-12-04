@@ -18,6 +18,37 @@ header{
 
 }
 
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #71A894 ;
+    color:#E5E5E5 ;
+    font-family: 'Noto Sans', sans-serif ;
+     width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    h1 ,h2 { 
+        font-family: 'Yeseva One', cursive;
+        font-style: normal;   
+        font-weight: normal; 
+        font-size: 48px;
+        line-height: 64px;
+        }
+    
+    p{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 26px;
+    }  
+
 #logo {
     font-family: "Cabin", sans-serif;
     font-style: normal;   
@@ -39,33 +70,7 @@ header{
     font-family: 'Noto Sans', sans-serif;
 }
 
-button{
-background-color: #71A894 ;
-color:#E5E5E5 ;
-font-family: 'Noto Sans', sans-serif ;
- width: 200px;
-height: 60px;
-padding: 10px;
-margin-top: 40px;
-border-radius: 4px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-h1 ,h2 { 
-    font-family: 'Yeseva One', cursive;
-    font-style: normal;   
-    font-weight: normal; 
-    font-size: 48px;
-    line-height: 64px;
-    }
-
-p{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 26px;
-}    
+  
 
 .caja1 {  
     display: flex;
@@ -91,9 +96,7 @@ p{
     border-top: 1px solid black;
     border-left: 1px solid black;
     width: 1012px;
-    height: 869.58px;
-
-    
+    height: 869.58px;  
 }
 
 .columna  button  {
@@ -118,7 +121,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: -200px;  
+    margin-top: -100px;  
 }
 
 .columna2{
@@ -129,12 +132,12 @@ p{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
-.section-1{
+.section-1 {
     display: flex;
     flex-direction: column;   
     text-align: center;
-    margin-bottom: 400px;
-    left: 200px;
+    margin: 250px ;
+   
 }
 
 .texto h1 p{
@@ -142,18 +145,15 @@ p{
     width: 680px;
     height: 334px;
     left: 742px;
-    margin-left: 350px;
-    
-    
-    
+    margin-left: 350px;   
 }
 
-.cards {
+.cards  {
    display: flex;
    flex-wrap: row;
    justify-content: center;
    text-align: center;  
-   margin-right: 80px;
+   margin-right: 10px;
 } 
 
 .widget1{
@@ -181,7 +181,8 @@ border-radius: 16px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 200px; 
+    margin-top: 300px; 
+    
     
  }
 
@@ -199,7 +200,7 @@ align-content: space-between;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 6em; 
+    margin-top: 300px; 
     margin-right: 8em;
  }
 
@@ -229,12 +230,9 @@ margin-top: 4em;
 flex-direction: column;
 align-items: center;
 padding: 20px 24px;
-position: absolute;
 width: 136px;
 height: 64px;
-left: calc(50% - 136px/2 + 0.5px);
-top: 4016px;
-margin-top: 100px;
+margin-left: 600px;
 background: #303031;
 border-radius: 8px;
  }
